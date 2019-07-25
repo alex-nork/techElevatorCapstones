@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+.park {
+	display: flex;
+	flex-direction: row;
+	padding-left: 2%;
+	margin-bottom: 2%;
+	align-items: center;
+}
+
+#park-info {
+	margin-right: 2%;
+}
+
+.park-image {
+	margin-right: 2%;
+}
+
+.park-name {
+	color: black;
+}
+
+#logo{
+	width: 25%;
+	height: auto;
+}
+
+.navbar-nav {
+	font-size: 25px;
+}
+
+.navbar-inverse {
+	padding-right: 25%;
+}
+
+input[type="radio"] {
+	margin-left: 1%;
+}
+/* Park details */
+
+.details-total {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+#temp-choice {
+	margin-bottom: 2%;
+	margin-left: 2%;
+}
+
+#img {
+	display: block;
+	width: 90%;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+	margin: auto;
+}
+
+h3 {
+	text-align: center;
+}
+
+#body {
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+#forecast {
+	display: inline;
+	height: auto;
+	width: 25%;
+	text-align: center;
+}
+
+#today-forecast {
+	text-align: left;
+	margin-left: 19%;
+}
+
+#forecast #message {
+    justify-content: bottom;
+   margin-left: 11%;
+   text-align: left;
+ 
+}
+
+#weatherprint {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#c-or-f {
+	text-align: center;
+}
+
+#matches:first-child img{
+	width: 100%;
+	height: auto;
+} 
+
+#formoptions {
+	display: flex;
+	flex-direction: column;
+	margin-left: 3.5%;
+}
+
+
+#activityLevel1, #activityLevel2, #activityLevel3, #activityLevel4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding-right: 5%;
+
+}
+
+#matches {
+	display: inline;
+	width: 15%;
+	justify-content: center;
+}
+
+#matches img {
+	display: block;
+	width: 35%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#weather-image {
+	width: 25%;
+	height: auto;
+}
+
+#matches:nth-child(n+2) #message{
+	visibility: hidden;
+}
